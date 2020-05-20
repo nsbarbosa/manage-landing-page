@@ -1,0 +1,155 @@
+body {
+    color: hsl(228, 39%, 23%);
+    font-family: 'Be Vietnam';
+    background-image: url("./../images/bg-simplify-section-desktop.svg");
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+nav {
+    margin: 20px 30px 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding-inline-start: unset;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: hsl(228, 39%, 23%);
+}
+
+div p {
+    color: grey;
+}
+
+.btn-red {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 10px 10px hsl(13, 100%, 96%);
+}
+
+main {
+    margin: 40px 30px 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-main {
+    width: 500px;
+}
+
+main img {
+    max-height: 300px;
+}
+
+.item-list {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.marker-list {
+    margin-top: 1em;
+    margin-right: 1.8em;
+    height: 40px;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    border: none;
+}
+
+.main-caroussel {
+    text-align: center;
+    width: 100%;
+}
+
+.item-caroussel {
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.082);
+    margin: 60px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+.item-caroussel img {
+    height: 80px;
+    margin-top: -40px;
+}
+
+.caroussel {
+    display: flex;
+}
+
+.footer-orange {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(12, 88%, 59%);
+    padding: 40px;
+}
+
+.btn-white {
+    color: hsl(12, 88%, 59%);
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+}
+
+footer h1 {
+    color: white;
+    max-width: 500px;
+}
+
+.footer-blue {
+    padding: 40px;
+    background-color: hsl(228, 39%, 23%);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    padding-inline-start: unset;
+    color: white;
+    margin: 0px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.btn-bottom {
+    box-shadow: none;
+}
+
+footer input {
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+.icons-bottom {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons-bottom div {
+    width: 100%;
+}
